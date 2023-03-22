@@ -1,7 +1,11 @@
-import "./App.css";
+import MemoryGame from "./games/MemoryGame";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <MemoryGame />
+    </div>
+  );
 }
 
 export default App;
