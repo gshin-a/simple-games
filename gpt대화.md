@@ -1,4 +1,6 @@
-// 요청할 때 팁: React 혹은 javascript, html 등으로 코드를 작성해달라고 할때 css code를 따로 만들어달라고 하는 것보다는 styled-component처럼 같은 파일에 내장되어 있는 형태를 요구해야 정확성이 높아진다.
+```
+요청할 때 팁: React 혹은 javascript, html 등으로 코드를 작성해달라고 할때 css code를 따로 만들어달라고 하는 것보다는 styled-component처럼 같은 파일에 내장되어 있는 형태를 요구해야 정확성이 높아진다.
+```
 
 요청:
 make simple game code using React and styled-components
