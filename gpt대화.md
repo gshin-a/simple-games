@@ -38,9 +38,10 @@ React와 styled-component를 사용해서 웹페이지를 제작해라
 
 ![캡쳐](/src/images/image1.PNG)
 
-요청:(버튼에 각 게임 페이지로 이동하는 기능을 추가해달라는 요청)
+요청:(버튼에 각 게임 페이지로 이동하는 기능을 추가해달라는 요청)    
 As you can see in the code below, I connected each game file to the router in the app file. Modify the Home.js code by adding a function to move to each game on each button.
 
+```javascript
 import ColorMatchGame from "./pages/ColorMatchGame ";
 import ClickTheButtonGame from "./pages/ClickTheButtonGame";
 import GuessGame from "./pages/GuessGame";
@@ -63,9 +64,9 @@ return (
 </div>
 );
 }
-
+```
 Home.js:
-
+```javascript
 const Home = () => {
 // Define colors for the sections
 const colors = ["#ff7f50", "#87ceeb", "#da70d6", "#ffd700"];
@@ -119,6 +120,6 @@ holes.
 };
 
 export default Home;
-
+```
 출력:
 ![캡쳐](/src/images/image2.PNG)
